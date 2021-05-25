@@ -64,7 +64,7 @@ train_tfidf_matrix.todense()
 x_train, x_test, y_train, y_test = train_test_split(train_tfidf_matrix,train['label'],test_size=0.33,random_state=17)
 ```
 
-## Fitting Decision Tree on training data and predicting values(with accuracy score and confusion matrix)
+## Fitting Decision Tree on training data and predicting sentiments(0 or 1) using Decision Tree (with accuracy score and confusion matrix)
 ```python
 # creating and pruning Decision Tree
 dct = tree.DecisionTreeClassifier(criterion='entropy', random_state=1, max_depth=5)
