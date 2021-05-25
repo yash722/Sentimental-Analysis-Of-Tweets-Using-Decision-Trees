@@ -76,3 +76,5 @@ cm = confusion_matrix(y_test, y_pred)
 f"Accuracy = {acc*100}% \n Confusion Matrix = {cm}"
 ```
 # Results
+![alt](https://github.com/yash722/Sentimental-Analysis-Of-Tweets-Using-Decision-Trees/blob/main/Acc_score_and_Conf.png)
+![alt](https://github.com/yash722/Sentimental-Analysis-Of-Tweets-Using-Decision-Trees/blob/main/Dec_Tree.png)
