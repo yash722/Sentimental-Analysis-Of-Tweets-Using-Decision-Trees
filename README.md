@@ -27,7 +27,6 @@ from nltk import PorterStemmer
 import re
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.metrics import f1_score, confusion_matrix,accuracy_score
-from sklearn import tree
 ```
 ## Pre-Processing tweets: -
 ```python
